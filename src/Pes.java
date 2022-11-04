@@ -1,9 +1,6 @@
-public class Pes extends Zvire{
+public class Pes extends Savec{
     public String mujDruh(){
         return "pes Bulldog";
-    }
-    public String mojeTrida(){
-        return "Savec";
     }
     public int mojeNohy(){
         return 4;

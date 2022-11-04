@@ -1,4 +1,4 @@
-public class Zvire {
+public abstract class Zvire {
     //metoda info
     //metody - muj druh muj pocet nohou
     public void info(){
@@ -6,14 +6,9 @@ public class Zvire {
         System.out.println("Trida: " + mojeTrida());
         System.out.println("Pocet nohou: " + mojeNohy());
     }
-    public String mujDruh(){
-        return "";
-    }
-    public String mojeTrida(){
-        return"";
-    }
-    public int mojeNohy(){
-        return 0;
-    }
+    public abstract String mujDruh();
+    public abstract String mojeTrida();
+    public abstract int mojeNohy();
+
 
 }
