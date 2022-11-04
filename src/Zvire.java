@@ -3,7 +3,7 @@ public class Zvire {
     //metody - muj druh muj pocet nohou
     public void info(){
         System.out.println("Druh: " + mujDruh());
-        System.out.println("Třída: " + mojeTrida());
+        System.out.println("Trida: " + mojeTrida());
         System.out.println("Pocet nohou: " + mojeNohy());
     }
     public String mujDruh(){
